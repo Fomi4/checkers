@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.chess {
+    width: 100vmin;
+    height: 100vmin;
+    margin: 0 auto;
+}
+
+.chess-line {
+    display: flex;
+}
+
+.chess-item {
+    width: 12.5%;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.chess-item:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.chess-item img {
+    position: absolute;
+    width: 100%;
+}
+
+.chess-black {
+    background: #000;
+}
